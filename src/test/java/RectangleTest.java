@@ -14,7 +14,7 @@ public class RectangleTest {
     }
 
     @Test
-    @DisplayName("Check InputParameter")
+    @DisplayName("Check InputParameter") //ersetzt im Prinzip den Klassennamen
     void testInvalidInputParameter() {
         assertThrows(IllegalArgumentException.class, () -> new Rectangle(0, 2));
         assertThrows(IllegalArgumentException.class, () -> new Rectangle(2, 0));
