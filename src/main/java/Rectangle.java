@@ -7,6 +7,7 @@ public class Rectangle {
     public Rectangle(double width, double height) {
         this.width = checkInputParameter(width, "width");
         this.height = checkInputParameter(height, "height");
+
     }
 
     /**

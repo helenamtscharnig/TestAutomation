@@ -29,6 +29,7 @@ public class RectangleTest {
         assertEquals(90, rectangle.calculateArea());
     }
 
+
     @Test
     @DisplayName("Berechnet den Umfang des Rechtecks")
     void calculateScope() {
